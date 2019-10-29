@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>About DynamoDB</title>
+    </head>
+    <body>
+        <H1>DynamoDB</H1>
+        <H1>Group 7</H1>
+        <H2>2016A7PS0076P</H2>
+        <H2>2016A7PS0113P</H2>
+        <A href="http://localhost:5000/index">Home</A>
+        <A href="http://localhost:5000/about">About</A>
+        <br>
+        This storage service supports 'get' and 'put' operations for key-value pairs.<br>
+        A key-value pair is replicated at 3 nodes, with one node acting as coordinator.<br>
+        Upon the execution of a 'put' operation, the stored key-value pair and the nodes where it is stored are displayed.<br>
+        Upon the successful execution of a 'get' operation, the following are displayed:<br>
+            * The retrieved key-value pair<br>
+            * The nodes from where it was retrieved<br>
+            * The coordinator-node and version number<br>
+        An unsuccessful 'get' operation is indicated as such.
+        <br>
+        <H1>PUT</H1>
+        <A href="http://localhost:5000/put">PUT</A>
+        <br>
+        <H1>GET</H1>
+        <A href="http://localhost:5000/get">Get</A>
+    </body>
+</html>
