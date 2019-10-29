@@ -439,4 +439,4 @@ if __name__ == '__main__':
     DNode3 = DynamoNode()
     DNode4 = DynamoNode()
     DNode5 = DynamoNode()
-    app.run(host="0.0.0.0", debug = True, port=5000)
+    app.run(host="0.0.0.0", port=5000)
